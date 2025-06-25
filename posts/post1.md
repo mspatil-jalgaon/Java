@@ -1,7 +1,14 @@
-# Java Basics
+# 🌟 Java Basics
 
-Java is a high-level, class-based, object-oriented programming language...
+Java is a **high-level**, **object-oriented**, and **platform-independent** programming language.
 
-## Key Features
-- Platform Independent
-- Object-Oriented
+---
+
+## ✅ Hello World Example
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
