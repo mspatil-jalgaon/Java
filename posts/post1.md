@@ -1,14 +1,7 @@
-# 🌟 Java Adv
+# Java ADV
 
-Java is a **high-level**, **object-oriented**, and **platform-independent** programming language.
+Java is a high-level, class-based, object-oriented programming language...
 
----
-
-## ✅ Hello World Example
-
-```java
-public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
-}
+## Key Features
+- Platform Independent
+- Object-Oriented
