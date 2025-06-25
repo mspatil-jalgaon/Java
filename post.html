@@ -1,65 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Programs</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    html, body {
-      height: 100%;
-      margin: 0;
+    body {
       font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-      display: flex;
-      flex-direction: column;
-    }
-
-    main {
-      flex: 1;
-    }
-
-    footer {
-      background-color: #f8f9fa;
-      padding: 20px 0;
-      text-align: center;
-    }
-
-    pre, code {
-      background-color: #f1f1f1;
-      padding: 0.5em;
-      display: block;
-      overflow-x: auto;
+      background-color: #fff;
     }
   </style>
 </head>
-<body>
-  <main class="container my-5">
-    <div id="post-content"></div>
-  </main>
 
-  <footer>
-    <div class="container">
-      <p class="mb-0">© 2025 Java Blog. All rights reserved.</p>
-    </div>
-  </footer>
+<body>
+  <div class="container my-5">
+    <div id="post-content"></div>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script>
+  <script type="text/javascript">
     const urlParams = new URLSearchParams(window.location.search);
     const postId = urlParams.get('post');
     const file = 'posts/post' + postId + '.md';
 
     fetch(file)
       .then(response => {
-        if (!response.ok) throw new Error('Post not found');
+        if (!response.ok) {
+          throw new Error('File not found');
+        }
         return response.text();
       })
       .then(data => {
         document.getElementById('post-content').innerHTML = marked.parse(data);
       })
       .catch(error => {
-        document.getElementById('post-content').innerHTML = '<p>Post not found.</p>';
+        document.getElementById('post-content').innerHTML = '<p class="text-danger">Post not found.</p>';
       });
   </script>
 </body>
+
 </html>
