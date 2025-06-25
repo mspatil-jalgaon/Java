@@ -2,6 +2,7 @@
 
 This post introduces you to the basics of Java programming.
 
+##### Input
 ```java
 class Test{
   public static void main(String[] args) {
@@ -9,7 +10,7 @@ class Test{
   }
 }
 ```
-
+##### Output
 ```bash
   Hello, World!
 ```
