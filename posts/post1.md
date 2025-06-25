@@ -1,6 +1,6 @@
 # Introduction to Java
 
-### This post introduces you to the basics of Java programming.
+This post introduces you to the basics of Java programming.
 
 ```java
 class Test{
