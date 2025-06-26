@@ -34,4 +34,11 @@ const blogPosts = [
     date: "2025-06-20",
     category: "Programming"
   }
+  {
+    id: 6,
+    title: "Java Program: Area of a Circle",
+    file: "posts/post6.md",
+    date: "2025-06-20",
+    category: "Programming"
+  }
 ];
