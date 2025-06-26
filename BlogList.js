@@ -27,4 +27,11 @@ const blogPosts = [
     date: "2025-06-20",
     category: "Programming"
   }
+  {
+    id: 5,
+    title: "Java Program: Square and Cube of a Number",
+    file: "posts/post5.md",
+    date: "2025-06-20",
+    category: "Programming"
+  }
 ];
