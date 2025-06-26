@@ -13,4 +13,18 @@ const blogPosts = [
     date: "2025-06-20",
     category: "Programming"
   }
+  {
+    id: 3,
+    title: "Java Input and Output Example",
+    file: "posts/post3.md",
+    date: "2025-06-20",
+    category: "Programming"
+  }
+  {
+    id: 4,
+    title: "Java Addition Program",
+    file: "posts/post4.md",
+    date: "2025-06-20",
+    category: "Programming"
+  }
 ];
