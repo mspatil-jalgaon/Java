@@ -16,10 +16,14 @@ class Number {
 }
 ```
 ### 📥 Input
+```bash
 Enter the Number: 1010
+```
 
 ### 📤 Output
+```bash
 Number is= 1010
+```
 
 ### ✅ In this program:
 Scanner is used to read input from the user.
