@@ -13,4 +13,6 @@ class Test {
 }
 ``` 
 ### 📤 Output
-```bash Max=20 ```
+```bash 
+    Max=20
+```
