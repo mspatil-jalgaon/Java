@@ -47,5 +47,12 @@ const blogPosts = [
     file: "posts/post7.md",
     date: "2025-06-20",
     category: "Programming"
+  },
+  {
+    id: 8,
+    title: "Average of Three Numbers",
+    file: "posts/post8.md",
+    date: "2025-06-20",
+    category: "Programming"
   }
 ];
