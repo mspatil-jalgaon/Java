@@ -23,5 +23,7 @@ Number is= 1010
 
 ### ✅ In this program:
 Scanner is used to read input from the user.
+
 ```bash nextInt()`` reads an integer.
+
 The input is then printed using System.out.println.
