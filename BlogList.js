@@ -44,7 +44,7 @@ const blogPosts = [
   {
     id: 7,
     title: "Division of Two Numbers",
-    file: "posts/post6.md",
+    file: "posts/post7.md",
     date: "2025-06-20",
     category: "Programming"
   }
