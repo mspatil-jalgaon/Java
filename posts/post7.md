@@ -19,11 +19,14 @@ class Division {
 }
 ```
 ### 📥 Input
+```bash
 Enter the First Number: 15  
 Enter the Second Number: 4
-
+```
 ### 📤 Output
+```bash
 Division is = 3.75
+```
 
 ### ✅ Explanation:
 
