@@ -27,5 +27,7 @@ Additton is = 30
 
 ### ✅ Explanation:
 We use Scanner to take input from the user.
+
 ```bash nextInt() ``` reads integer values.
+
 The addition result is stored in the variable sum and displayed using System.out.println.
