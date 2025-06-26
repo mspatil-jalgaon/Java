@@ -8,7 +8,7 @@ const blogPosts = [
   },
   {
     id: 2,
-    title: "OOP in Java",
+    title: "Program to Find Max Using Ternary Operator",
     file: "posts/post2.md",
     date: "2025-06-20",
     category: "Programming"
