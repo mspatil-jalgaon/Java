@@ -23,7 +23,11 @@ Enter a Radius: 7
 Area of Circle = 153.86
 
 ### ✅ Explanation:
+
 ``` Scanner ``` is used to take user input.
+
 The formula ``` π * r² ``` is used with ``` π ``` approximated as ``` 3.14. ``` 
+
 ``` x ``` is the radius.
+
 The area is calculated and printed using ``` System.out.println(). ```
