@@ -54,7 +54,7 @@ const blogPosts = [
     file: "posts/post8.md",
     date: "2025-06-20",
     category: "Programming"
-  }
+  },
   {
     id: 9,
     title: "Convert Meters to Kilometers",
