@@ -55,4 +55,11 @@ const blogPosts = [
     date: "2025-06-20",
     category: "Programming"
   }
+  {
+    id: 9,
+    title: "Convert Meters to Kilometers",
+    file: "posts/post9.md",
+    date: "2025-06-20",
+    category: "Programming"
+  }
 ];
