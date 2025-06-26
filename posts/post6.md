@@ -17,10 +17,14 @@ class Sqcube {
 }
 ```
 ### 📥 Input
+```bash
 Enter a Radius: 7
+```
 
 ### 📤 Output
+```bash
 Area of Circle = 153.86
+```
 
 ### ✅ Explanation:
 
