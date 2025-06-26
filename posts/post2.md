@@ -18,8 +18,8 @@ class Test {
 ```
 
 ### ✅ Explanation:
-The ternary operator (condition) ? value_if_true : value_if_false is a shorthand for if-else.
+The ternary operator ``` (condition) ? value_if_true : value_if_false ``` is a shorthand for if-else.
 
-Here, the expression (x > y) ? x : y evaluates to y because x (10) is not greater than y (20).
+Here, the expression ``` (x > y) ? x : y ``` evaluates to y because  x (10) is not greater than y (20).
 
 So, max is assigned the value 20.
