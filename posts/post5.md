@@ -23,9 +23,17 @@ Enter a Number: 5
 
 ### 📤 Output
 Square is = 25
-Cube is = 125
 
+Cube is = 125
 ### ✅ Explanation:
+
+Scanner is used for input.
+
+Square is calculated using x * x.
+
+Cube is calculated using x * x * x.
+
+Results are printed using System.out.println()
 Scanner is used for input.
 Square is calculated using x * x.
 Cube is calculated using x * x * x.
