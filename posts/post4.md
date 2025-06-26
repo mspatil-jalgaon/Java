@@ -19,11 +19,15 @@ class Addittion {
 }
 ```
 ### 📥 Input
+```bash
 Enter the First Number: 10  
 Enter the Second Number: 20
+```
 
 ### 📤 Output
+```bash
 Additton is = 30
+```
 
 ### ✅ Explanation:
 We use Scanner to take input from the user.
