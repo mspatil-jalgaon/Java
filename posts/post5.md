@@ -19,12 +19,16 @@ class Sqcube {
 }
 ```
 ### 📥 Input
+```bash
 Enter a Number: 5
+```
 
 ### 📤 Output
+```bash
 Square is = 25
-
 Cube is = 125
+```
+
 ### ✅ Explanation:
 
 Scanner is used for input.
