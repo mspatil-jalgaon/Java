@@ -1,4 +1,3 @@
-<title>Java Addition Program with Code, Input, Output & Explanation</title>
 <meta name="description" content="This Java program takes two integers as input from the user and calculates their sum. Includes code, input/output examples, and explanation.">
 <meta name="keywords" content="Java addition program, Java input program, simple java code, java sum example, java tutorial for beginners">
 <meta name="author" content="Your Name or Website Name">
