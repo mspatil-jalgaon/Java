@@ -1,4 +1,14 @@
-# Introduction to Java
+<title>Java Addition Program with Code, Input, Output & Explanation</title>
+<meta name="description" content="This Java program takes two integers as input from the user and calculates their sum. Includes code, input/output examples, and explanation.">
+<meta name="keywords" content="Java addition program, Java input program, simple java code, java sum example, java tutorial for beginners">
+<meta name="author" content="Your Name or Website Name">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Java Addition Program Example with Code & Output">
+<meta property="og:description" content="Learn how to add two numbers in Java using Scanner class. View code, input/output, and detailed explanation.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://mspatil-jalgaon.github.io/Java/post.html?post=4">
+  
+  # Introduction to Java
 
 Java is a widely-used, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. This post introduces you to the basics of Java programming with a simple example.
 
