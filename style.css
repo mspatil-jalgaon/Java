@@ -1,0 +1,55 @@
+body {
+  padding: 2rem;
+  color: #343a40;
+  font-size: large;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+ul.tree, ul.tree ul {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+ul.tree li {
+  margin: 0.5rem 0;
+}
+
+.folder {
+  cursor: pointer;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.folder::before {
+  content: "--";
+  display: inline-block;
+  margin-right: 0.4rem;
+  transform: rotate(0deg);
+  transition: transform 0.2s;
+}
+
+.folder.open::before {
+  transform: rotate(90deg);
+}
+
+.nested {
+  display: none;
+  margin-left: 1.5rem;
+}
+
+.nested.active {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
