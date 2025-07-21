@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HelloWorld.java Viewer</title>
+
+  <!-- Prism.js CSS theme -->
+  <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+
+  <!-- Prism Line Numbers plugin -->
+  <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/line-numbers/prism-line-numbers.min.css" rel="stylesheet" />
+
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 2rem;
+      background: #2d2d2d;
+      color: #ccc;
+    }
+    h2 {
+      color: #fff;
+    }
+    pre {
+      border-radius: 10px;
+      overflow: auto;
+    }
+  </style>
+</head>
+<body>
+
+<h2>HelloWorld.java</h2>
+
+<pre class="line-numbers"><code id="code" class="language-java"></code></pre>
+
+<!-- Prism.js Core + Java + Line Numbers -->
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-java.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+
+<!-- JavaScript to fetch and display the .java file -->
+<script>
+fetch('HelloWorld.java')
+  .then(response => response.text())
+  .then(data => {
+    const codeBlock = document.getElementById('code');
+    codeBlock.textContent = data;
+    Prism.highlightElement(codeBlock);
+  });
+</script>
+
+</body>
+</html>
