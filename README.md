@@ -6,15 +6,3 @@ Here is the Basic Java Programs !!!
 
 📁 Java Code Explorer
 
-▶ basic/
-    - helloworld.html
-
-▶ other/
-    - other.html
-
-▶ codes/java/
-    - helloworld.java
-    - other.java
-    ▶ examples/
-        - sample1.java
-        - sample2.java
